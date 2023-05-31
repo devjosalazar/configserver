@@ -56,7 +56,7 @@ pipeline {
                   projectId: env.PROJECT_ID, \
                   clusterName: env.CLUSTER_NAME, \
                   location: env.LOCATION, \
-                  manifestPattern: 'microservicios-configmap.yml', \
+                  manifestPattern: 'microservicios-configmap.yaml', \
                   credentialsId: env.CREDENTIALS_ID, \
                   verifyDeployments: true])
                 }
